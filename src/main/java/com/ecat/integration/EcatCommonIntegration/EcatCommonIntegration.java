@@ -34,7 +34,7 @@ public class EcatCommonIntegration extends IntegrationBase {
     }
 
     @Override
-    public void onRelease() {
+    protected void onReleaseImpl() {
         log.info("EcatCommonIntegration released");
     }
 }
