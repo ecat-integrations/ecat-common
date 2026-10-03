@@ -23,11 +23,11 @@
       <groupId>com.alibaba.fastjson2</groupId>
       <artifactId>fastjson2</artifactId>
     </dependency>
-    <!-- Jackson 2.12.5 — 统一版本，解决 docker-java 传递的 2.10.3 与 Ruoyi/Spring Boot 2.12.x 冲突 -->
+    <!-- jackson-databind:运行层版本对齐实体,全进程扁平类加载层统一版本;
+         版本真相=parent dependencyManagement(4.0.0 起) -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.12.5</version>
     </dependency>
     <dependency>
       <groupId>com.ecat</groupId>
