@@ -1,5 +1,5 @@
 # 此文件为ecat集成的配置文件，无此文件则下面均为无。
 # ecat-common 是 classloader 树根集成：pom 以 provided 引 ecat-core，无兄弟集成编译依赖，
 # 故 dependencies 恒空——声明即硬依赖，除非 pom 真实引用，勿在此加声明。
-requires_core: ^3.1.0
+requires_core: ^4.0.0
 dependencies: []
